@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle git-branch-navigator",
+        "command": "git-branch-navigator:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "git-branch-navigator",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "git-branch-navigator:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
